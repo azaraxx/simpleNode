@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/azaraxx/simpleNode/issues"
   },
-  "homepage": "https://github.com/azaraxx/simpleNode#readme"
+  "homepage": "https://github.com/azaraxx/simpleNode#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
