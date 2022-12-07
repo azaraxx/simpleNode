@@ -3,7 +3,7 @@ const log = require("./log.js");
 const sayHello = require("./exportsDemo");
 
 http
-  .createServer(function (request, response) {
+  .createServer((request, response) => {
     if (request.url == "/admin") {
       response.writeHead(200, { "Content-Type": "text/html" });
       response.write(
