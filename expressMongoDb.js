@@ -3,7 +3,7 @@ const Customer = require("./customer.js");
 
 mongoose.set("strictQuery", false);
 mongoose.connect(
-  "mongodb+srv://sametk:IXPHVFMmCmhWkYZh@shop.vhhkz5d.mongodb.net/test",
+  "",
   (error) => {
     if (error) {
       throw error;
